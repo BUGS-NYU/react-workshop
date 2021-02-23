@@ -7,7 +7,7 @@ import "./Button.css";
 export default class Button extends Component {
   render() {
     return (
-      <button className="Button" onClick={this.props.onClick.bind(this)}>
+      <button>
         Click me!
       </button>
     )

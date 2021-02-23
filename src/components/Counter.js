@@ -8,7 +8,7 @@ export default class Counter extends Component {
   render() {
     return (
       <div className="Counter">
-        <span className="Counter--value">{this.props.count}</span>
+        <span className="Counter--value">0</span>
       </div>
     )
   }
