@@ -1,5 +1,5 @@
 .Button {
-  background-color: #57068c;
+  /* background-color: #57068c; */
   color: white;
   font-weight: 700;
   border-radius: 10px;
@@ -8,6 +8,19 @@
   will-change: transform;
 }
 
-.Button:hover {
-  transform: scale(1.06);
+.Button::after {
+  background-color: #57068c;
+  transition: transform 300ms;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.Button:hover::after {
+  transform: scale(1.08);
 }
