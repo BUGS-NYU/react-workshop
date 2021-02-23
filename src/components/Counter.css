@@ -1,0 +1,9 @@
+.Counter {
+  margin: 2rem;
+}
+
+.Counter--value {
+  font-size: 13rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
